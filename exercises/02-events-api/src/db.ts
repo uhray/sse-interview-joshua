@@ -94,6 +94,7 @@ export interface LedgerEntry {
   reason: string;
   sourceId: string;
   amount: number;
+  day?: string;
   createdAt: Date;
 }
 
